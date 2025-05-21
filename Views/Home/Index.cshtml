@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yüz Renk Analizi</title>
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        video {
+            border: 3px solid #555;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+        #result {
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline-block;
+            text-align: left;
+            min-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Kamera ile Yüz Renk Analizi ve Öneri</h2>
+    <video id="video" width="640" height="480" autoplay muted playsinline></video>
+    <br />
+    <button id="detectBtn">Analiz Et</button>
+    <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+    <div id="result"></div>
+
+    <script>
+        const video = document.getElementById("video");
+        const canvas = document.getElementById("canvas");
+        const context = canvas.getContext("2d");
+        const detectBtn = document.getElementById("detectBtn");
+        let modelsReady = false;
+
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                video.srcObject = stream;
+                console.log("Kamera başlatıldı.");
+            })
+            .catch(err => alert("Kamera hatası: " + err.message));
+
+        Promise.all([
+            faceapi.nets.tinyFaceDetector.loadFromUri("https://justadudewhohacks.github.io/face-api.js/models"),
+            faceapi.nets.faceLandmark68Net.loadFromUri("https://justadudewhohacks.github.io/face-api.js/models")
+        ]).then(() => {
+            modelsReady = true;
+            console.log("Modeller yüklendi.");
+        });
+
+        detectBtn.addEventListener("click", async () => {
+            if (!modelsReady) return alert("Modeller yüklenmedi!");
+
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            const result = await faceapi
+                .detectSingleFace(canvas, new faceapi.TinyFaceDetectorOptions())
+                .withFaceLandmarks();
+
+            if (!result) return alert("Yüz bulunamadı!");
+
+            const landmarks = result.landmarks;
+
+            // Cilt için: burun ortası
+            const skinPoint = landmarks.getNose()[4];
+            const skinRGB = getAverageRGB(skinPoint.x, skinPoint.y);
+
+            // Göz için: sol gözün ortası
+            const eye = landmarks.getLeftEye();
+            const eyeCenter = {
+                x: (eye[1].x + eye[2].x + eye[3].x + eye[4].x) / 4,
+                y: (eye[1].y + eye[2].y + eye[3].y + eye[4].y) / 4
+            };
+            const eyeRGB = getAverageRGB(eyeCenter.x, eyeCenter.y);
+
+            // Saç için: burun üst hizasının yukarısı (alın)
+            const topCenter = {
+                x: landmarks.getNose()[0].x,
+                y: Math.max(landmarks.getNose()[0].y - 120, 0)
+            };
+            const hairRGB = getAverageRGB(topCenter.x, topCenter.y);
+
+            const skinTone = getSkinTone(skinRGB);
+            const eyeTone = getEyeColor(eyeRGB);
+            const hairTone = getHairColor(hairRGB);
+
+            const öneri = öneriVer(skinTone, eyeTone, hairTone);
+
+            document.getElementById("result").innerHTML =
+                `<strong>🎨 Cilt Rengi:</strong> RGB(${skinRGB}) → ${skinTone}<br>` +
+                `<strong>👁️ Göz Rengi:</strong> RGB(${eyeRGB}) → ${eyeTone}<br>` +
+                `<strong>💇 Saç Rengi:</strong> RGB(${hairRGB}) → ${hairTone}<br><br>` +
+                `<strong>💄 Önerilen ürünler:</strong> ${öneri}`;
+        });
+
+        function getAverageRGB(x, y, size = 7) {
+            let r = 0, g = 0, b = 0, count = 0;
+            for (let dx = -Math.floor(size / 2); dx <= Math.floor(size / 2); dx++) {
+                for (let dy = -Math.floor(size / 2); dy <= Math.floor(size / 2); dy++) {
+                    const data = context.getImageData(x + dx, y + dy, 1, 1).data;
+                    r += data[0]; g += data[1]; b += data[2]; count++;
+                }
+            }
+            return [Math.round(r / count), Math.round(g / count), Math.round(b / count)];
+        }
+
+        function getSkinTone([r, g, b]) {
+            const avg = (r + g + b) / 3;
+            if (r > 200 && g > 180 && b > 170) return "Açık Ten";
+            if (r > 170 && g > 145 && b > 130) return "Buğday Ten";
+            if (r > 120 && g > 100 && b > 90) return "Esmer Ten";
+            return "Koyu Esmer Ten";
+        }
+
+        function getEyeColor([r, g, b]) {
+            if (b > 100 && b > r + 15 && b > g + 15) return "Mavi";
+            if (g > 90 && g > r + 10 && g > b + 10) return "Yeşil";
+            if (r > 90 && g > 70 && b < 60 && r > g && g > b) return "Ela";
+            if (r > 80 && g > 80 && b > 80 && Math.abs(r - g) < 20 && Math.abs(r - b) < 20) return "Gri";
+            return "Kahverengi";
+        }
+
+        function getHairColor([r, g, b]) {
+            const avg = (r + g + b) / 3;
+            if (avg < 50) return "Siyah";
+            if (r > 170 && g > 150 && b > 110 && avg > 160) return "Sarışın";
+            if (r > 140 && g < 100 && b < 90) return "Kızıl";
+            if (avg < 120) return "Koyu Kahverengi";
+            return "Kumral / Açık Kahverengi";
+        }
+
+        function öneriVer(ten, göz, saç) {
+            if (ten === "Açık Ten") {
+                if (göz === "Mavi" || göz === "Gri") return "🧴 Açık pembe ruj, pastel far, açık şeftali allık.";
+                if (göz === "Yeşil" || göz === "Ela") return "🧴 Şeftali nude ruj, toprak tonları far, mercan allık.";
+                return "🧴 Nude ruj, kahve tonları far, açık mercan allık.";
+            }
+            if (ten === "Buğday Ten") {
+                if (göz === "Kahverengi") return "🧴 Kiremit ruj, bronz far, şeftali allık.";
+                if (göz === "Yeşil" || göz === "Ela") return "🧴 Mercan ruj, altın far, yumuşak pembe allık.";
+                return "🧴 Şeftali ruj, sıcak bronz far, hafif bronzer.";
+            }
+            if (ten === "Esmer Ten" || ten === "Koyu Esmer Ten") {
+                if (saç === "Siyah") return "🧴 Bordo ruj, koyu dumanlı far, yoğun allık.";
+                return "🧴 Koyu pembe ruj, mürdüm far, bronzer.";
+            }
+            return "🧴 Nude tonlar, doğal toprak far, hafif bronzer.";
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\appsettings.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.staticwebassets.runtime.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.exe
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.deps.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.runtimeconfig.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.pdb
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.AssemblyInfoInputs.cache
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.AssemblyInfo.cs
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.RazorAssemblyInfo.cache
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.RazorAssemblyInfo.cs
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.GlamAI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.build.GlamAI.props
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GlamAI.props
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GlamAI.props
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\bundle\GlamAI.styles.css
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\projectbundle\GlamAI.bundle.scp.css
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\refint\GlamAI.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.pdb
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.genruntimeconfig.cache
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\ref\GlamAI.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.AssemblyReference.cache
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.Up2Date
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_model-weights_manifest.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_model-shard1
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_tiny_model-shard1
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_tiny_model-weights_manifest.json
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\MethodBoundaryAspect.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\OneOf.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\Protobuf.Text.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\Razorvine.Pickle.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\Serilog.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\Tensorflow.Binding.dll
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\linux-x64\native\libtensorflow.so
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\linux-x64\native\libtensorflow_framework.so.2
+C:\Users\VICTUS\source\repos\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\win-x64\native\tensorflow.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_model-shard1
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_model-weights_manifest.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_tiny_model-shard1
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_tiny_model-weights_manifest.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\appsettings.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.staticwebassets.runtime.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.exe
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.deps.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.runtimeconfig.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.pdb
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\MethodBoundaryAspect.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\OneOf.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\Protobuf.Text.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\Razorvine.Pickle.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\Serilog.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\Tensorflow.Binding.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\linux-x64\native\libtensorflow.so
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\linux-x64\native\libtensorflow_framework.so.2
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\win-x64\native\tensorflow.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.AssemblyReference.cache
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.AssemblyInfoInputs.cache
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.AssemblyInfo.cs
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.RazorAssemblyInfo.cache
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.RazorAssemblyInfo.cs
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.GlamAI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.build.GlamAI.props
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GlamAI.props
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GlamAI.props
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\bundle\GlamAI.styles.css
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\projectbundle\GlamAI.bundle.scp.css
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.Up2Date
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\refint\GlamAI.dll
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.pdb
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.genruntimeconfig.cache
+C:\Users\VICTUS\OneDrive\Desktop\GlamAI\GlamAI\obj\Debug\net8.0\ref\GlamAI.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_model-shard1
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_model-weights_manifest.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_tiny_model-shard1
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\wwwroot\face-models\face_landmark_68_tiny_model-weights_manifest.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\appsettings.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.staticwebassets.runtime.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.exe
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.deps.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.runtimeconfig.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\GlamAI.pdb
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\MethodBoundaryAspect.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\OneOf.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\Protobuf.Text.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\Razorvine.Pickle.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\Serilog.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\Tensorflow.Binding.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\linux-x64\native\libtensorflow.so
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\linux-x64\native\libtensorflow_framework.so.2
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\bin\Debug\net8.0\runtimes\win-x64\native\tensorflow.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.AssemblyReference.cache
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.AssemblyInfoInputs.cache
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.AssemblyInfo.cs
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.CoreCompileInputs.cache
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.RazorAssemblyInfo.cache
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.RazorAssemblyInfo.cs
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.GlamAI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.build.GlamAI.props
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GlamAI.props
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GlamAI.props
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\bundle\GlamAI.styles.css
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\scopedcss\projectbundle\GlamAI.bundle.scp.css
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.csproj.Up2Date
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\refint\GlamAI.dll
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.pdb
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\GlamAI.genruntimeconfig.cache
+C:\Users\VICTUS\OneDrive\Desktop\Yeni klasör (3)\GlamAI\GlamAI\obj\Debug\net8.0\ref\GlamAI.dll
